@@ -22,6 +22,7 @@ public class App {
         System.out.printf("Measure with eight decimal places: %.10f%n", measure);
         System.out.printf("Rouded (three decimal places): 53,235");
         System.out.printf(" %n US decimal point: 53.235");
+        
 
     }
 }
