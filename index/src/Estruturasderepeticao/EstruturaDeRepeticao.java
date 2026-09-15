@@ -5,21 +5,22 @@ import java.util.Scanner;
 public class EstruturaDeRepeticao {
     public static  void  main(String [] args){
 
-    var scanner = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
+    int hora;
 
-    System.out.println("Bem Vindo!");
+    System.out.println("Quantas horas?");
+    hora = sc.nextInt();
 
-    var x = 7;
-    var z = 8;
-    int soma = x + z;
+    if (hora < 12) {
+        System.out.print("Bom Dia!");
 
-    if ( x >= 10) {
-        
-        System.out.print(soma);
+    } 
+    else if (hora < 18) {
+         System.out.println("Boa tarde!");
     }
     else {
-        System.out.print("X é maior que 10");
+         System.out.println("Boa noite!");
+    }  
+
     }
-    }
- 
 }
