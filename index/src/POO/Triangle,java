@@ -1,8 +1,0 @@
-package POO;
-
-public class Primeiraaula {
-    public static void main(String[] args) {
-        
-    }
-    
-}
